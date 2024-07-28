@@ -17,9 +17,5 @@ export default function Button(props: ButtonProps | AnchorProps) {
     return <a href={props.href} className="button" {...props}></a>;
   }
 
-  return (
-    <button className="button" {...props}>
-      Button
-    </button>
-  );
+  return <button className="button" {...props}></button>;
 }
